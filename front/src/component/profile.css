@@ -1,0 +1,53 @@
+/* Welcome banner */
+.welcome-banner {
+  background: linear-gradient(90deg, #6a1b9a, #4dd0e1); /* Purple to teal gradient */
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Profile card */
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile-header {
+  background: linear-gradient(45deg, #6a1b9a, #4dd0e1); /* Purple to teal gradient */
+  color: #ffffff;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+}
+
+/* Document images */
+.document-image {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+/* Text colors */
+h4.text-teal {
+  color: #4dd0e1 !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .profile-header {
+    padding: 2rem;
+  }
+
+  .profile-details {
+    padding: 1.5rem;
+  }
+
+  .document-image {
+    max-width: 100%;
+  }
+}

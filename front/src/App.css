@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card {
+    border-radius: 8px;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  /* Hover effect for notification items */
+.list-group-item:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+/* For the "No new notifications" section */
+.text-muted {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Add some padding and styling to the page */
+.container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

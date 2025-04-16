@@ -1,0 +1,48 @@
+.hero {
+    height: 90vh;
+    background-color: rgb(2, 2, 32);
+    color: white;
+    padding: 50px;
+}
+.hero .write-up h4{
+    color: orangered;
+    font-size: 40px;
+}
+.hero  .write-up .btn{
+    
+}
+.hero .write-up p{
+    margin: 0;
+    text-transform: capitalize;
+}
+.hero .write-up button{
+    border: 0;
+    background-color: orangered;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius:15px;
+    text-transform: capitalize;
+    
+}
+.login-container {
+        color: #fff;
+  }
+  
+  .card {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #2575fc;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
